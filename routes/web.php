@@ -24,3 +24,17 @@ Route::post('/suma',function (Request $request){
 
     return view('suma',['resu' => $total ]);
 });
+
+
+
+Route::get ('/resta', function(){
+    return view('resta');
+});
+
+Route::post('/resta', function (Request $request) {
+    $nume1 = $request->input('nume1');
+    $nume2 = $request->input('nume2');
+    $totalr = $nume1 - $nume2;
+
+    return view('resta',['resta' => $totalr]);
+});

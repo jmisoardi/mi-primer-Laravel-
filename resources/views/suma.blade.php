@@ -32,7 +32,7 @@
             
             @endif
             
-            
+            <a href="/resta">Resta</a>
             
                 
             
