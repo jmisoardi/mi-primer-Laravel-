@@ -26,17 +26,13 @@
             </form>
             <br>
         
-            @if (isset($resu))
+            @if (isset($tosum))
                 
-                <h3>El resultado es {{ $resu }} </h3>
+                <h1>El resultado es {{ $tosum }} </h1>
             
             @endif
             
-            <a href="/resta">Resta</a>
+            {{-- <a href="/resta">Resta</a> --}}
             
-                
-            
-            
-
     </body>
 </html>

@@ -20,7 +20,7 @@
                 <input type="number" name="nume2" id="nume2" required>
                 <br>
                 <br>
-                <button type="submit">Resta</button>
+                <button type="submit" >Resta</button>
 
             </form>
         <br>
@@ -30,9 +30,8 @@
             
         @endif
         
-        <a href="/suma">Sumar</a>
-
+        {{-- <a href="/suma">Sumar</a> --}}
+    
         
-        
-</body>
+    </body>
 </html>
